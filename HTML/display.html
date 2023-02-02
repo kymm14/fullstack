@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Propiedad display</title>
+    <style>
+        span {
+            border: 2px solid red;
+            /* el atributo width no tiene efecto porque span es de tipo inline */
+            width: 100%;
+        }
+         #div {
+            border: 2px solid red;
+            width: 100px;
+            display: inline-block;
+         }
+    </style>
+</head>
+<body>
+    <span>Titulo 1</span>
+    <p>Titulo 2</p>
+    <span>Titulo 1</span>
+    <span>Titulo 1</span>
+    <span id="div">Texto 1</span>
+    <span id="div">Texto 2</span>
+</body>
+</html>
