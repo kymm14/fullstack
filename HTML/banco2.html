@@ -5,64 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 página 106</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            margin: 0px;
-            font-family: 'Montserrat', sans-serif;
-        }
-        header.main-header{
-            background-color: #2ddf5c; 
-            padding: 8px 16px; 
-            width:100%;
-            display:inline-block;
-        }
-        li.main-nav-item {
-            display:inline-block;
-        }
-        ul.main-nav-items {
-            display:inline-block;
-            margin: 0;
-            padding: 0; 
-            list-style: none
-        }
-        nav.main-nav {
-            display:inline-block;
-            width: calc(100% - 90px);
-            text-align: right;
-        }
-        .main-header > div {
-            display:inline-block;
-        }
-        .main-header-brand {
-            color: #0e4f1f; 
-            text-decoration: none; 
-            font-weight: bold; 
-            font-size: 22px; 
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="../CSS/estilos-banco2.css">
 </head>
 <body>
     <header class="main-header">
             <div>
                 <!-- <img src="../IMG/logo.png" alt="Logo del Banco"> -->
-                <h1 class="main-header-brand">Banco</h1>
+                <h1 class="main-header-brand"><a href="../HTML/banco2.html"> Banco</a></h1>
             </div>
             <nav class="main-nav">
                 <ul class="main-nav-items">
-                    <li class="main-nav-item">Inicio</li>
-                    <li class="main-nav-item">Servicios</li>
-                    <li class="main-nav-item">Acceso cliente</li>
-                    <li class="main-nav-item">FAQ</li>
-                    <li class="main-nav-item">Contacto</li>
+                    <a href="#"><li class="main-nav-item"><a href="#"> Inicio</li></a>
+                    <li class="main-nav-item"><a href="#"> Servicios</a></li> 
+                    <li class="main-nav-item"><a href="#">Acceso cliente</a> </li> 
+                    <li class="main-nav-item"> <a href="#">FAQ </a> </li> 
+                    <li class="main-nav-item"> <a href="#">Contacto </a> </li>
                 </ul>
             </nav>
     </header>
